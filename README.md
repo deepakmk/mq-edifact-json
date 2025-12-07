@@ -1,0 +1,1 @@
+# mq-edifact-json
