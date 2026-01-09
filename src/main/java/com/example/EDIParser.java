@@ -53,6 +53,30 @@ public class EDIParser {
                     String data = reader.getText();
                     System.out.println(data);
                     break;
+                case ELEMENT_DATA_BINARY:
+                    break;
+                case ELEMENT_DATA_ERROR:
+                    break;
+                case ELEMENT_OCCURRENCE_ERROR:
+                    break;
+                case END_GROUP:
+                    break;
+                case END_INTERCHANGE:
+                    break;
+                case END_LOOP:
+                    break;
+                case END_TRANSACTION:
+                    break;
+                case SEGMENT_ERROR:
+                    break;
+                case START_GROUP:
+                    break;
+                case START_LOOP:
+                    break;
+                case START_TRANSACTION:
+                    break;
+                default:
+                    break;
             }
         }
 
